@@ -1,0 +1,209 @@
+* body main .tKezplox {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box; }
+  * body {
+    background-image: url(../img/pexels-polina-zimmerman-3747473.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    * body header .ulN {
+      text-align: center;
+      font-size: 1.2rem;
+      padding: 0.4rem;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+      border-radius: 0,0,0,10px; }
+      * body header .ulN li {
+        padding: 0.4rem;
+        border-radius: 1rem;
+        margin: 0.4rem; }
+        * body header .ulN li a {
+          color: whitesmoke; }
+    * body main .bienvenidos {
+      margin: 1.5rem;
+      border-radius: 1.5rem;
+      padding: 1rem;
+      background-color: #141414;
+      color: whitesmoke;
+      text-align: center;
+      font-size: 1.2rem; }
+    * body main .tKezplox {
+      background-color: #d8f5c8;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.2rem; }
+    * body main .section {
+      display: grid;
+      grid-template-areas: "parrafo1"  "videoNvidia" "parrafo2"  "videoIntel"; }
+    * body main .divVideo1 .parrafo1 {
+      text-align: center; }
+    * body main .divVideo2 .parrafo2 {
+      text-align: center; }
+    * body main .divVideo2 .parrafo2 {
+      text-align: center; }
+    * body main .imgP {
+      display: grid;
+      justify-content: center;
+      grid-template-areas: "gabinete"  "impresora" "placadevideo"  "placamadre"; }
+    * body main .gabinete, * body main .impresora, * body main .placadevideo, * body main .placamadre {
+      background-color: whitesmoke;
+      margin: 1rem;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center; }
+    * body main .parrafo1 {
+      margin: 1.5rem;
+      font-size: 0.9rem; }
+    * body main .parrafo2 {
+      margin: 1.5rem;
+      font-size: 0.9rem; }
+    * body main .videoNvidia, * body main .videoIntel {
+      width: 100%;
+      padding: 5px;
+      border-radius: 1rem; }
+    * body main h3 {
+      text-align: center;
+      margin: 1rem;
+      font-size: 1.4rem; }
+    * body footer h4 {
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      color: #000000;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), black);
+      border-radius: 0,0,0,10px; }
+      * body footer h4 a {
+        color: whitesmoke; }
+  @media only screen and (min-width: 650px) {
+    * body header .logoK {
+      position: absolute; }
+    * body header .logoK:hover {
+      transform: scale(1.02); }
+    * body header nav .ulN {
+      display: flex;
+      justify-content: end;
+      padding: 1.5rem; }
+    * body header nav .ulN li {
+      font-size: 1.2rem;
+      border-radius: 1rem;
+      padding: 0.4rem;
+      margin-top: 2rem;
+      margin-left: 2rem; }
+    * body header nav ul li:hover {
+      transform: scale(1.03); }
+    * body main .bienvenidos {
+      margin: 1.5rem;
+      border-radius: 1.5rem;
+      padding: 1rem;
+      background-color: #141414;
+      color: whitesmoke;
+      text-align: center;
+      font-size: 1.6rem; }
+    * body main article h2 {
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem; }
+    * body main article .section {
+      display: grid;
+      grid-template-areas: "parrafo1 parrafo2" "videoNvidia videoIntel"; }
+    * body main article .parrafo1 {
+      margin: 1.5rem;
+      font-size: 1rem; }
+    * body main article .parrafo2 {
+      margin: 1.5rem;
+      font-size: 1rem; }
+    * body main article .divVideo1, * body main article .divVideo2 {
+      text-align: center; }
+    * body main article .videoNvidia, * body main article .videoIntel {
+      width: 90%;
+      border-radius: 1rem; }
+    * body main h3 {
+      text-align: center;
+      margin: 1rem;
+      font-size: 1.5rem; }
+    * body main .imgP {
+      display: grid;
+      justify-content: center;
+      padding: auto;
+      grid-template-areas: "gabinete impresora" "placadevideo placamadre"; }
+    * body main .gabinete, * body main .impresora, * body main .placadevideo, * body main .placamadre {
+      background-color: whitesmoke;
+      padding: 40px;
+      border-radius: 1rem; }
+    * body main .gabinete2, * body main .impresora2, * body main .placadevideo2, * body main .placamadre2 {
+      margin: auto; }
+    * body main .gabinete2:hover, * body main .impresora2:hover, * body main .placadevideo2:hover, * body main .placamadre2:hover {
+      transform: scale(1.1); }
+    * body footer h4 {
+      font-size: 1.1rem;
+      display: flex;
+      justify-content: center;
+      padding: 2rem; } }
+  @media only screen and (min-width: 1050px) {
+    * body header .logoK {
+      position: absolute; }
+    * body header .logoK:hover {
+      transform: scale(1.02); }
+    * body header nav .ulN li {
+      font-size: 1.5rem;
+      margin: 0.3rem; }
+    * body header nav .ulN li {
+      font-size: 1.5rem;
+      margin: 0.3rem; }
+    * body main .bienvenidos {
+      margin: 1.5rem;
+      border-radius: 1.5rem;
+      padding: 1rem;
+      background-color: #141414;
+      color: whitesmoke;
+      text-align: center;
+      font-size: 2rem; }
+    * body main article .section {
+      display: grid;
+      grid-template-areas: "parrafo1 parrafo2" "videoNvidia videoIntel"; }
+    * body main article h2 {
+      text-align: center;
+      padding: 1.2rem;
+      font-size: 1.7rem; }
+    * body main article .videoIntel, * body main article .videoNvidia {
+      border-radius: 1rem;
+      width: 80%; }
+    * body main article .parrafo1 {
+      margin: 1.5rem;
+      font-size: 1.2rem; }
+    * body main article .parrafo2 {
+      margin: 1.5rem;
+      font-size: 1.2rem; }
+    * body main h3 {
+      text-align: center;
+      margin: 1rem;
+      font-size: 1.7rem; }
+    * body main .imgP {
+      display: grid;
+      justify-content: center;
+      grid-template-areas: "gabinete impresora placadevideo placamadre"; }
+    * body main .gabinete2, * body main .impresora2, * body main .placadevideo2, * body main .placamadre2 {
+      background-color: whitesmoke;
+      border-radius: 1rem;
+      width: 100%; }
+    * body main .gabinete, * body main .impresora, * body main .placadevideo, * body main .placamadre {
+      background-color: whitesmoke;
+      border-radius: 1rem; }
+    * body main .gabinete2:hover, * body main .impresora2:hover, * body main .placadevideo2:hover, * body main .placamadre2:hover {
+      transform: scale(1.1); }
+    * body footer h4 {
+      font-size: 1.3rem;
+      display: flex;
+      justify-content: right;
+      padding: 2rem; } }
